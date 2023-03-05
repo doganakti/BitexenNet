@@ -5,19 +5,6 @@ namespace BitexenNet.Models
 {
     public class Data
     {
-
-        [JsonPropertyName("balances")]
-        public Dictionary<string, TokenBalance>? Balances { get; set; }
-
-        [JsonPropertyName("orders")]
-        public List<Order>? Orders { get; set; }
-
-        [JsonPropertyName("message")]
-        public string? Message { get; set; }
-
-        [JsonPropertyName("order")]
-        public Order? Order { get; set; }
-
         [JsonPropertyName("page_number")]
         public int PageNumber { get; set; }
 
