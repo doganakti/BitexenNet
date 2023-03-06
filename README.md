@@ -1,8 +1,6 @@
 ### Bitexen API .Net Client Library
 
-This client library is built for .net framework to connect Bitexen Trading API. All the public and private methods included that is accessible on [bitexen api documentation] (https://docs.bitexen.com).
-
-
+This client library is built for .net framework to connect Bitexen Trading API. All the public and private methods included that is accessible on [bitexen api documentation](https://docs.bitexen.com).
 
 #### Public Methods
 
@@ -20,8 +18,6 @@ var tickers = client.GetTickers(marketCode: );
 var ticker = client.GetTicker(marketCode: "market_code");
 var orderBook = client.getOrderBook(marketCode: "market_code");
 ```
-
-
 
 #### Private Methods
 
